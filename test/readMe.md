@@ -1,4 +1,4 @@
-:book: #### Some Notes for the Tests and their Results on the Corresponding Devices
+:book: **Some Notes for the Tests and their Results on the Corresponding Devices**
 
 <!-- - [Test JIT](test_jit.md)
 - [Test Kernel Cache](test_kernel_cache.md)
@@ -95,4 +95,4 @@
 **D3:** OpenBox NVidia P40 (OpenBox Affordable NVidia Version)  
 **D4:** AE Snapdragon 845/ Adreno 630  
 
-Click on the :checkmark: or :xmark: to see the log result of the test results for the associated device.
+Click on the ✔️ or ❌ to see the log result of the test results for the associated device.
