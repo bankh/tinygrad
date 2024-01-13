@@ -1,0 +1,19 @@
+test_contiguous_add (__main__.TestFusionOp) ... ok
+test_expand_fuse (__main__.TestFusionOp) ... ok
+test_recursive_add (__main__.TestFusionOp) ... ok
+test_recursive_add_cmp (__main__.TestFusionOp) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.442s
+
+OK
+CLDevice: got 1 platforms and 2 devices
+*** GPU        1 [33mcopy       16,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm   1666.62us/     1.67ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU        2[0m E_[36m4[0m[90m_[0m[33m4[0m[90m[0m                                 arg   2 mem  0.00 GB tm      4.80us/     1.67ms (    0.00 GFLOPS,    0.03 GB/s)
+*** GPU        3 [33mcopy       16,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    236.36us/     1.91ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU        4[0m E_[36m4[0m[90m_[0m[33m4[0m[90mn1[0m                               arg   2 mem  0.00 GB tm      1.04us/     1.91ms (    0.00 GFLOPS,    0.12 GB/s)
+[32m*** GPU        5[0m E_[36m4[0m[90m_[0m[33m4[0m[90mn2[0m                               arg   3 mem  0.00 GB tm      1.68us/     1.91ms (    0.01 GFLOPS,    0.11 GB/s)
+*** GPU        6 [33mcopy       10,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    379.47us/     2.29ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU        7[0m E_[34m5[0m[90m_[0m[36m2[0m[90m[0m                                 arg   2 mem  0.00 GB tm      2.08us/     2.29ms (    0.00 GFLOPS,    0.04 GB/s)
+[32m*** GPU        8[0m r_[34m5[0m[90m_[0m[36m2[0m[90m_[0m[35m10[0m[90m[0m                              arg   2 mem  0.00 GB tm      1.64us/     2.29ms (    0.06 GFLOPS,    0.05 GB/s)
+avg:     0.00 GFLOPS     0.00 GB/s           total:     8 kernels     0.00 GOPS     0.00 GB     2.29 ms

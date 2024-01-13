@@ -1,0 +1,42 @@
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.497s
+
+OK
+CLDevice: got 1 platforms and 2 devices
+*** GPU   rand  seed 1705186155 size 1944            dtype dtypes.float
+[32m*** GPU        1[0m E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90m[0m                              arg   2 mem  0.00 GB tm      6.12us/     0.01ms (    1.43 GFLOPS,    1.91 GB/s)
+[32m*** GPU        2[0m E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn1[0m                            arg   2 mem  0.00 GB tm      7.76us/     0.01ms (    0.00 GFLOPS,    1.00 GB/s)
+[32m*** GPU        3[0m E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn2[0m                            arg   2 mem  0.00 GB tm      8.32us/     0.02ms (    0.00 GFLOPS,    0.93 GB/s)
+*** GPU   rand  seed 1705186156 size 1944            dtype dtypes.float
+*** GPU        4 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90m[0m                              arg   2 mem  0.00 GB tm      2.96us/     0.03ms (    2.96 GFLOPS,    3.94 GB/s)
+[32m*** GPU        5[0m E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn3[0m                            arg   2 mem  0.00 GB tm      2.28us/     0.03ms (    0.00 GFLOPS,    3.41 GB/s)
+*** GPU   rand  seed 1705186157 size 1944            dtype dtypes.float
+*** GPU        6 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90m[0m                              arg   2 mem  0.00 GB tm      3.04us/     0.03ms (    2.88 GFLOPS,    3.84 GB/s)
+*** GPU        7 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn1[0m                            arg   2 mem  0.00 GB tm      8.04us/     0.04ms (    0.00 GFLOPS,    0.97 GB/s)
+*** GPU        8 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn1[0m                            arg   2 mem  0.00 GB tm      7.36us/     0.05ms (    0.00 GFLOPS,    1.06 GB/s)
+*** GPU   rand  seed 1705186158 size 8               dtype dtypes.float
+[32m*** GPU        9[0m E_[33m4[0m[90m[0m                                   arg   2 mem  0.00 GB tm      5.80us/     0.05ms (    0.01 GFLOPS,    0.01 GB/s)
+[32m*** GPU       10[0m E_[33m4[0m[90mn1[0m                                 arg   2 mem  0.00 GB tm      4.40us/     0.06ms (    0.00 GFLOPS,    0.01 GB/s)
+*** GPU   rand  seed 1705186159 size 1944            dtype dtypes.float
+*** GPU       11 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90m[0m                              arg   2 mem  0.00 GB tm      3.64us/     0.06ms (    2.40 GFLOPS,    3.20 GB/s)
+*** GPU       12 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn1[0m                            arg   2 mem  0.00 GB tm      7.84us/     0.07ms (    0.00 GFLOPS,    0.99 GB/s)
+[32m*** GPU       13[0m E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn4[0m                            arg   2 mem  0.00 GB tm      2.28us/     0.07ms (    0.00 GFLOPS,    3.41 GB/s)
+*** GPU   rand  seed 1705186160 size 1944            dtype dtypes.float
+*** GPU       14 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90m[0m                              arg   2 mem  0.00 GB tm      2.96us/     0.07ms (    2.96 GFLOPS,    3.94 GB/s)
+*** GPU       15 E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn1[0m                            arg   2 mem  0.00 GB tm      6.48us/     0.08ms (    0.00 GFLOPS,    1.20 GB/s)
+[32m*** GPU       16[0m E_[34m81[0m[90m_[0m[36m3[0m[90m_[0m[33m4[0m[90mn5[0m                            arg   2 mem  0.00 GB tm      8.56us/     0.09ms (    0.00 GFLOPS,    0.68 GB/s)
+*** GPU   rand  seed 1705186161 size 8               dtype dtypes.float
+*** GPU       17 E_[33m4[0m[90m[0m                                   arg   2 mem  0.00 GB tm      4.68us/     0.09ms (    0.01 GFLOPS,    0.01 GB/s)
+[32m*** GPU       18[0m E_[33m4[0m[90mn2[0m                                 arg   2 mem  0.00 GB tm      2.68us/     0.10ms (    0.00 GFLOPS,    0.01 GB/s)
+[32m*** GPU       19[0m E_[36m2[0m[90m[0m                                   arg   2 mem  0.00 GB tm      3.56us/     0.10ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU   rand  seed 1705186162 size 16              dtype dtypes.float
+[32m*** GPU       20[0m E_[36m2[0m[90m_[0m[33m4[0m[90m[0m                                 arg   2 mem  0.00 GB tm      4.88us/     0.10ms (    0.01 GFLOPS,    0.02 GB/s)
+[32m*** GPU       21[0m E_[36m2[0m[90m_[0m[33m4[0m[90mn1[0m                               arg   2 mem  0.00 GB tm      3.28us/     0.11ms (    0.00 GFLOPS,    0.02 GB/s)
+[32m*** GPU       22[0m E_[36m3[0m[90m[0m                                   arg   2 mem  0.00 GB tm      2.88us/     0.11ms (    0.00 GFLOPS,    0.01 GB/s)
+*** GPU   rand  seed 1705186163 size 32              dtype dtypes.float
+[32m*** GPU       23[0m E_[36m4[0m[90m_[0m[33m4[0m[90m[0m                                 arg   2 mem  0.00 GB tm      5.52us/     0.12ms (    0.03 GFLOPS,    0.03 GB/s)
+[32m*** GPU       24[0m E_[36m4[0m[90m_[0m[33m4[0m[90mn1[0m                               arg   2 mem  0.00 GB tm      2.68us/     0.12ms (    0.00 GFLOPS,    0.05 GB/s)
+[32m*** GPU       25[0m E_[33m4[0m[90mn3[0m                                 arg   2 mem  0.00 GB tm      3.52us/     0.12ms (    0.00 GFLOPS,    0.02 GB/s)
+<((((((gidx0[0-511]*4)%32)*8)%64)+(((gidx0[0-511]//8)%32)//4))%64)> <((gidx0[0-511]//2)%4)> 0 63 0 3 <(gidx0[0-511]<256)>
+avg:     0.36 GFLOPS     1.05 GB/s           total:    25 kernels     0.00 GOPS     0.00 GB     0.12 ms

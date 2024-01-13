@@ -1,0 +1,6 @@
+test_zero_copy_from_default_to_cpu (__main__.TestZeroCopy) ... skipped "device isn't zero copy"
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK (skipped=1)

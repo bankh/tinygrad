@@ -1,0 +1,68 @@
+.s.......
+----------------------------------------------------------------------
+Ran 9 tests in 0.544s
+
+OK (skipped=1)
+(1,) (-8,) True
+CLDevice: got 1 platforms and 2 devices
+*** GPU        1 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm   1505.52us/     1.51ms (    0.00 GFLOPS,    0.00 GB/s)
+(1,) (-8,) True
+*** GPU        2 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    261.43us/     1.77ms (    0.00 GFLOPS,    0.00 GB/s)
+(4,) (4,) True
+*** GPU        3 [33mcopy        4,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    217.39us/     1.98ms (    0.00 GFLOPS,    0.00 GB/s)
+(3,) (4,) True
+*** GPU        4 [33mcopy        3,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    265.84us/     2.25ms (    0.00 GFLOPS,    0.00 GB/s)
+(2,) (8,) False
+*** GPU        5 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    276.44us/     2.53ms (    0.00 GFLOPS,    0.00 GB/s)
+(2,) (8,) False
+*** GPU        6 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    331.31us/     2.86ms (    0.00 GFLOPS,    0.00 GB/s)
+(1, 1) (-32, -8) True
+*** GPU        7 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    221.55us/     3.08ms (    0.00 GFLOPS,    0.00 GB/s)
+(1, 1) (-32, -8) True
+*** GPU        8 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    263.32us/     3.34ms (    0.00 GFLOPS,    0.00 GB/s)
+(4, 4) (16, 4) True
+*** GPU        9 [33mcopy       16,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    256.87us/     3.60ms (    0.00 GFLOPS,    0.00 GB/s)
+(3, 3) (16, 4) False
+*** GPU       10 [33mcopy        9,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    274.29us/     3.87ms (    0.00 GFLOPS,    0.00 GB/s)
+(2, 2) (32, 8) False
+*** GPU       11 [33mcopy        4,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    267.86us/     4.14ms (    0.00 GFLOPS,    0.00 GB/s)
+(2, 2) (32, 8) False
+*** GPU       12 [33mcopy        4,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    308.68us/     4.45ms (    0.00 GFLOPS,    0.00 GB/s)
+(1, 1, 1) (-128, -32, -8) True
+*** GPU       13 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    256.25us/     4.71ms (    0.00 GFLOPS,    0.00 GB/s)
+(1, 1, 1) (-128, -32, -8) True
+*** GPU       14 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    293.36us/     5.00ms (    0.00 GFLOPS,    0.00 GB/s)
+(4, 4, 4) (64, 16, 4) True
+*** GPU       15 [33mcopy       64,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    266.73us/     5.27ms (    0.00 GFLOPS,    0.00 GB/s)
+(3, 3, 3) (64, 16, 4) False
+*** GPU       16 [33mcopy       27,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    255.33us/     5.52ms (    0.00 GFLOPS,    0.00 GB/s)
+(2, 2, 2) (128, 32, 8) False
+*** GPU       17 [33mcopy        8,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    259.50us/     5.78ms (    0.00 GFLOPS,    0.00 GB/s)
+(2, 2, 2) (128, 32, 8) False
+*** GPU       18 [33mcopy        8,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    304.14us/     6.09ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU       19[0m E_[36m4[0m[90m_[0m[33m4[0m[90m[0m                                 arg   1 mem  0.00 GB tm      5.52us/     6.09ms (    0.00 GFLOPS,    0.01 GB/s)
+[32m*** GPU       20[0m E_[36m4[0m[90m_[0m[33m4[0m[90mn1[0m                               arg   1 mem  0.00 GB tm      0.92us/     6.09ms (    0.00 GFLOPS,    0.07 GB/s)
+[32m*** GPU       21[0m E_[36m4[0m[90m_[0m[33m4[0m[90mn2[0m                               arg   1 mem  0.00 GB tm      1.56us/     6.09ms (    0.01 GFLOPS,    0.04 GB/s)
+*** GPU       22 E_[36m4[0m[90m_[0m[33m4[0m[90mn1[0m                               arg   1 mem  0.00 GB tm      1.60us/     6.10ms (    0.00 GFLOPS,    0.04 GB/s)
+*** GPU       23 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    349.60us/     6.44ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       24 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     50.53us/     6.50ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU       25[0m E_[90m[0m                                    arg   2 mem  0.00 GB tm      1.72us/     6.50ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU       26[0m E_[33m2[0m[90m[0m                                   arg   3 mem  0.00 GB tm      1.76us/     6.50ms (    0.00 GFLOPS,    0.01 GB/s)
+*** GPU       27 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     52.84us/     6.55ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       28 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    202.35us/     6.75ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       29 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     47.49us/     6.80ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       30 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     52.55us/     6.85ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU       31[0m E_[90mn1[0m                                  arg   3 mem  0.00 GB tm      1.88us/     6.86ms (    0.00 GFLOPS,    0.01 GB/s)
+[32m*** GPU       32[0m E_[33m2[0m[90mn1[0m                                 arg   3 mem  0.00 GB tm      1.60us/     6.86ms (    0.00 GFLOPS,    0.01 GB/s)
+*** GPU       33 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     53.34us/     6.91ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       34 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    205.64us/     7.12ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       35 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     42.10us/     7.16ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU       36[0m E_[90mn2[0m                                  arg   2 mem  0.00 GB tm      1.88us/     7.16ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       37 E_[33m2[0m[90mn1[0m                                 arg   3 mem  0.00 GB tm      1.64us/     7.16ms (    0.00 GFLOPS,    0.01 GB/s)
+*** GPU       38 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     52.33us/     7.21ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       39 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    202.28us/     7.42ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       40 [33mcopy        1,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     51.93us/     7.47ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU       41[0m E_[90mn3[0m                                  arg   2 mem  0.00 GB tm      1.88us/     7.47ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU       42 E_[33m2[0m[90mn1[0m                                 arg   3 mem  0.00 GB tm      1.64us/     7.47ms (    0.00 GFLOPS,    0.01 GB/s)
+*** GPU       43 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     52.69us/     7.53ms (    0.00 GFLOPS,    0.00 GB/s)
+avg:     0.00 GFLOPS     0.00 GB/s           total:    43 kernels     0.00 GOPS     0.00 GB     7.53 ms

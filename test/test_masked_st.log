@@ -1,0 +1,16 @@
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.420s
+
+OK
+CLDevice: got 1 platforms and 2 devices
+*** GPU        1 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm   1417.14us/     1.42ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU        2 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    232.63us/     1.65ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU        3[0m E_[33m4[0m[90m[0m                                   arg   3 mem  0.00 GB tm      4.88us/     1.65ms (    0.00 GFLOPS,    0.01 GB/s)
+*** GPU        4 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    485.04us/     2.14ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU        5 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    100.39us/     2.24ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU        6[0m E_[33m5[0m[90m[0m                                   arg   3 mem  0.00 GB tm      1.04us/     2.24ms (    0.00 GFLOPS,    0.06 GB/s)
+*** GPU        7 [33mcopy        5,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    279.97us/     2.52ms (    0.00 GFLOPS,    0.00 GB/s)
+*** GPU        8 [33mcopy        2,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    103.31us/     2.62ms (    0.00 GFLOPS,    0.00 GB/s)
+[32m*** GPU        9[0m E_[33m5[0m[90mn1[0m                                 arg   3 mem  0.00 GB tm      2.32us/     2.63ms (    0.00 GFLOPS,    0.03 GB/s)
+avg:     0.00 GFLOPS     0.00 GB/s           total:     9 kernels     0.00 GOPS     0.00 GB     2.63 ms

@@ -1,0 +1,9 @@
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.406s
+
+OK
+CLDevice: got 1 platforms and 2 devices
+[32m*** GPU        1[0m E_[34m128[0m[90m_[0m[36m32[0m[90m_[0m[33m3[0m[90m[0m                            arg   1 mem  0.00 GB tm      5.44us/     0.01ms (    0.00 GFLOPS,    9.04 GB/s)
+<class 'numpy.ndarray'>
+avg:     0.00 GFLOPS     9.04 GB/s           total:     1 kernels     0.00 GOPS     0.00 GB     0.01 ms

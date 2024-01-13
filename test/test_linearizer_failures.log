@@ -1,0 +1,26 @@
+.s..F....s.
+======================================================================
+FAIL: test_failure_3 (__main__.TestLinearizerFailures)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/software/tinygrad/test/test_linearizer_failures.py", line 50, in test_failure_3
+    helper_test_lin(Linearizer(ast), opts, failed_platforms=["METAL", "GPU", "CUDA"])
+  File "/root/software/tinygrad/test/test_linearizer_failures.py", line 25, in helper_test_lin
+    assert run_linearizer(lin) != "PASS"
+AssertionError
+
+----------------------------------------------------------------------
+Ran 11 tests in 2.235s
+
+FAILED (failures=1, skipped=2)
+CLDevice: got 1 platforms and 2 devices
+[32m*** GPU        1[0m r_[34m32[0m[90m_[0m[34m16[0m[90m_[0m[31m16[0m[90m[0m                            arg   3 mem  0.00 GB tm      5.48us/     0.01ms (    1.68 GFLOPS,    0.76 GB/s)
+[32m*** GPU        2[0m r_[34m64[0m[90m_[0m[31m512[0m[90m_[0m[31m6[0m[90m_[0m[31m6[0m[90m[0m                          arg   8 mem  0.01 GB tm    798.37us/     0.80ms (   29.55 GFLOPS,   10.34 GB/s)
+[32m*** GPU        3[0m r_[34m2[0m[90m_[0m[34m37[0m[90m_[0m[34m9[0m[90m_[0m[36m32[0m[90m_[0m[31m2[0m[90m_[0m[31m2[0m[90m[0m                       arg   2 mem  0.00 GB tm      6.96us/     0.81ms (   12.25 GFLOPS,  125.53 GB/s)
+[32m*** GPU        4[0m r_[36m2[0m[90m_[0m[36m32[0m[90m_[0m[32m4[0m[90m_[0m[33m4[0m[90m_[0m[33m2[0m[90m_[0m[35m4[0m[90m_[0m[33m4[0m[90m_[0m[33m2[0m[90m[0m                    arg   2 mem  0.00 GB tm     24.24us/     0.84ms (    2.70 GFLOPS,   11.49 GB/s)
+[32m*** GPU        5[0m r_[94m11[0m[90m_[0m[31m3[0m[90m_[0m[33m2[0m[90m_[0m[33m2[0m[90m_[0m[33m2[0m[90m_[0m[33m2[0m[90m_[0m[35m2[0m[90m_[0m[33m7[0m[90m[0m                    arg   2 mem  0.00 GB tm     49.08us/     0.88ms (    0.15 GFLOPS,    0.31 GB/s)
+[32m*** GPU        6[0m r_[35m4[0m[90m_[0m[35m24[0m[90m[0m                                arg   2 mem  0.00 GB tm      3.80us/     0.89ms (    0.10 GFLOPS,    0.00 GB/s)
+[32m*** GPU        7[0m r_[31m10[0m[90m_[0m[33m2[0m[90m_[0m[33m5[0m[90m[0m                              arg   1 mem  0.00 GB tm      1.96us/     0.89ms (    0.06 GFLOPS,    0.02 GB/s)
+[32m*** GPU        8[0m r_[34m128[0m[90m_[0m[34m32[0m[90m_[0m[34m34[0m[90m_[0m[34m34[0m[90m_[0m[31m7[0m[90m_[0m[31m7[0m[90m_[0m[33m4[0m[90m[0m                  arg   2 mem  0.23 GB tm [33m    49.44ms[0m/    50.33ms (   18.77 GFLOPS,    4.59 GB/s)
+[32m*** GPU        9[0m r_[34m2272[0m[90m_[0m[31m2[0m[90m_[0m[33m2[0m[90m_[0m[33m3[0m[90m[0m                          arg   3 mem  0.00 GB tm      6.48us/    50.34ms (    8.33 GFLOPS,   13.89 GB/s)
+avg:    18.91 GFLOPS     4.69 GB/s           total:     9 kernels     0.95 GOPS     0.24 GB    50.34 ms

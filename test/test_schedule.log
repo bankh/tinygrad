@@ -1,0 +1,57 @@
+test_basic_binop_fusion (__main__.TestSchedule) ... ok
+test_basic_binop_fusion_deep (__main__.TestSchedule) ... ok
+test_binop_early_reshape_reduce_fusion (__main__.TestSchedule) ... ok
+test_binop_elu_fusion (__main__.TestSchedule) ... ok
+test_binop_permute_fusion (__main__.TestSchedule) ... ok
+test_binop_reshape_fusion (__main__.TestSchedule) ... ok
+test_binop_reshape_reduce_fusion (__main__.TestSchedule) ... ok
+test_cache_binaryop (__main__.TestSchedule) ... ok
+test_cache_binaryop_reshaped (__main__.TestSchedule) ... skipped 'failing in old lazy'
+test_cache_binaryop_transpose (__main__.TestSchedule) ... skipped 'failing in new lazy'
+test_cache_two_reduceops (__main__.TestSchedule) ... ok
+test_children_dont_push (__main__.TestSchedule) ... skipped 'not real world'
+test_constants_are_embedded (__main__.TestSchedule) ... ok
+test_contiguous_add (__main__.TestSchedule) ... ok
+test_contiguous_while_contiguous (__main__.TestSchedule) ... ok
+test_contiguous_while_not_contiguous (__main__.TestSchedule) ... ok
+test_diamond_folded (__main__.TestSchedule) ... ok
+test_dont_fuse_binops_with_children (__main__.TestSchedule) ... skipped 'failing in new lazy'
+test_double_from (__main__.TestSchedule) ... ok
+test_double_sum_ref (__main__.TestSchedule) ... ok
+test_example_matmul (__main__.TestSchedule) ... ok
+test_expand_nofuse (__main__.TestSchedule) ... ok
+test_fancy_reshape_fusion (__main__.TestSchedule) ... skipped 'failing in old lazy'
+test_fold_batchnorm (__main__.TestSchedule) ... ok
+test_fold_conv_elu (__main__.TestSchedule) ... ok
+test_fold_conv_relu (__main__.TestSchedule) ... ok
+test_fold_double_unary (__main__.TestSchedule) ... ok
+test_image_conv_fusion (__main__.TestSchedule) ... skipped 'failing in old lazy'
+test_image_conv_fusion_minimal (__main__.TestSchedule) ... ok
+test_image_conv_fusion_more_minimal (__main__.TestSchedule) ... ok
+test_mulacc_fusion (__main__.TestSchedule) ... ok
+test_mulacc_relu_fusion (__main__.TestSchedule) ... ok
+test_multi_permute_should_collapse (__main__.TestSchedule) ... ok
+test_multistage_reduce (__main__.TestSchedule) ... ok
+test_multistage_reduce_fork (__main__.TestSchedule) ... ok
+test_no_binop_rerun (__main__.TestSchedule) ... ok
+test_permute_breaks_fusion (__main__.TestSchedule) ... ok
+test_pow_const_tensor_simplified (__main__.TestSchedule) ... ok
+test_pow_const_tensor_to_zero (__main__.TestSchedule) ... ok
+test_push_permute_through_reshape (__main__.TestSchedule) ... ok
+test_push_permute_through_reshape_alt (__main__.TestSchedule) ... ok
+test_reduce_permute_binop_fusion (__main__.TestSchedule) ... skipped 'not pushing permutes through reduces'
+test_reduce_permute_nofuse (__main__.TestSchedule) ... ok
+test_reduce_reshape_binop_fusion (__main__.TestSchedule) ... ok
+test_reduce_shrink (__main__.TestSchedule) ... ok
+test_resnet_block (__main__.TestSchedule) ... ok
+test_shrink_fuse (__main__.TestSchedule) ... ok
+test_some_permute_fusion (__main__.TestSchedule) ... ok
+test_two_elus_sum (__main__.TestSchedule) ... ok
+test_two_sum (__main__.TestSchedule) ... ok
+test_zero_size (__main__.TestSchedule) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.242s
+
+OK (skipped=7)
+CLDevice: got 1 platforms and 2 devices

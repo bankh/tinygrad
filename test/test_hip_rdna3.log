@@ -1,0 +1,6 @@
+sssss
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK (skipped=5)
+settings(database=DirectoryBasedExampleDatabase('/root/software/tinygrad/.hypothesis/examples'), deadline=None, derandomize=False, max_examples=100, phases=(Phase.explicit, Phase.reuse, Phase.generate, Phase.target, Phase.shrink), print_blob=True, report_multiple_bugs=True, stateful_step_count=50, suppress_health_check=(), verbosity=Verbosity.normal)

@@ -1,0 +1,11 @@
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.441s
+
+OK
+CLDevice: got 1 platforms and 2 devices
+*** GPU   rand  seed 1705186068 size 500000          dtype dtypes.float
+[2819 6701 2510 5682 6621  757 1208 6260 6170 1698 3741  394 7662 8190
+  192 7970]
+[32m*** GPU        1[0m E_[34m25[0m[90m_[0m[36m16[0m[90m_[0m[36m2[0m[90m[0m                             arg   2 mem  0.00 GB tm      5.56us/     0.01ms (    2.16 GFLOPS,  360.29 GB/s)
+avg:     2.16 GFLOPS   360.29 GB/s           total:     1 kernels     0.00 GOPS     0.00 GB     0.01 ms
