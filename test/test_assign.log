@@ -1,0 +1,18 @@
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.428s
+
+OK
+CLDevice: got 1 platforms and 2 devices
+*** GPU        1 [33mcopy    40000,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm   1367.99us/     1.37ms (    0.00 GFLOPS,    0.12 GB/s)
+[32m*** GPU        2[0m E_[34m625[0m[90m_[0m[36m16[0m[90m_[0m[33m4[0m[90m[0m                            arg   2 mem  0.00 GB tm      5.84us/     1.37ms (    0.00 GFLOPS,   54.79 GB/s)
+*** GPU        3 [33mcopy    40000,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    479.83us/     1.85ms (    0.00 GFLOPS,    0.33 GB/s)
+*** GPU        4 [33mcopy    40000,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    106.31us/     1.96ms (    0.00 GFLOPS,    1.51 GB/s)
+[32m*** GPU        5[0m E_[34m25[0m[90m_[0m[34m25[0m[90m_[0m[36m8[0m[90m_[0m[36m2[0m[90m_[0m[33m4[0m[90m[0m                         arg   3 mem  0.00 GB tm      1.20us/     1.96ms (   33.33 GFLOPS,  400.00 GB/s)
+*** GPU        6 [33mcopy    40000,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    473.29us/     2.43ms (    0.00 GFLOPS,    0.34 GB/s)
+*** GPU        7 [33mcopy    40000,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     92.01us/     2.53ms (    0.00 GFLOPS,    1.74 GB/s)
+*** GPU        8 E_[34m25[0m[90m_[0m[34m25[0m[90m_[0m[36m8[0m[90m_[0m[36m2[0m[90m_[0m[33m4[0m[90m[0m                         arg   3 mem  0.00 GB tm      2.60us/     2.53ms (   15.38 GFLOPS,  184.62 GB/s)
+*** GPU        9 [33mcopy    40000,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm    388.71us/     2.92ms (    0.00 GFLOPS,    0.41 GB/s)
+*** GPU       10 [33mcopy    40000,     GPU <- CPU    [0m     arg   2 mem  0.00 GB tm     96.05us/     3.01ms (    0.00 GFLOPS,    1.67 GB/s)
+[32m*** GPU       11[0m E_[34m625[0m[90m_[0m[36m16[0m[90m_[0m[33m4[0m[90mn1[0m                          arg   3 mem  0.00 GB tm      1.76us/     3.02ms (   22.73 GFLOPS,  272.73 GB/s)
+avg:     0.04 GFLOPS     0.96 GB/s           total:    11 kernels     0.00 GOPS     0.00 GB     3.02 ms
