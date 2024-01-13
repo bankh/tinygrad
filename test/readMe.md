@@ -48,7 +48,7 @@
     <th>D2</th>
     <th>D3</th>
     <th>D4</th>
-  </tr>
+  </tr> 
   <tr><td>1</td><td><a href="test_jit.md">Test JIT</a></td><td></td><td></td><td></td><td></td></tr>
   <tr><td>2</td><td><a href="test_kernel_cache.md">Test Kernel Cache</a></td></tr>
   <tr><td>3</td><td><a href="test_lazy_buffer.md">Test Lazy Buffer</a></td></tr>
@@ -85,7 +85,7 @@
   <tr><td>34</td><td><a href="test_uops.md">Test UOps</a></td></tr>
   <tr><td>35</td><td><a href="test_winograd.md">Test Winograd</a></td></tr>
   <tr><td>36</td><td><a href="test_zero_copy.md">Test Zero Copy</a></td></tr>
-  <tr><td>37</td><td><a href="test_assign.md">Test Assign</a></td></tr>
+  <tr><td>37</td><td><a href="test_assign.md">Test Assign</a></td><td><a href="test_assign.log">✔️</a></td><td></td><td></td><td></td></tr>
   <tr><td>38</td><td><a href="test_conv.md">Test Conv</a></td></tr>
   <tr><td>39</td><td><a href="test_conv_shapetracker.md">Test Conv Shape Tracker</a></td></tr>
 </table>
