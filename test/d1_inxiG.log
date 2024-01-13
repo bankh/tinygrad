@@ -1,0 +1,13 @@
+Graphics:
+  Device-1: ASPEED Graphics Family driver: ast v: kernel
+  Device-2: AMD driver: amdgpu v: kernel
+  Device-3: AMD driver: amdgpu v: kernel
+  Device-4: AMD driver: amdgpu v: kernel
+  Device-5: AMD driver: amdgpu v: kernel
+  Device-6: AMD driver: amdgpu v: kernel
+  Device-7: AMD driver: amdgpu v: kernel
+  Display: x11 server: X.Org v: 1.21.1.4 driver: X:
+    loaded: amdgpu,ati,modesetting unloaded: fbdev,radeon,vesa gpu: ast
+    resolution: 1024x768~60Hz
+  OpenGL: renderer: llvmpipe (LLVM 15.0.7 256 bits)
+    v: 4.5 Mesa 23.0.4-0ubuntu1~22.04.1
