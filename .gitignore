@@ -21,6 +21,7 @@ recognize*
 disassemblers/applegpu
 disassemblers/cuda_ioctl_sniffer
 *.prof
+extra/qcom_gpu_driver/
 extra/datasets/cifar-10-python.tar.gz
 extra/datasets/librispeech/
 extra/datasets/imagenet/
