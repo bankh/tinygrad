@@ -50,44 +50,45 @@
     <th>D4</th>
   </tr> 
   <tr><td>1</td><td><a href="test_jit.md">Test JIT</a></td><td></td><td></td><td></td><td></td></tr>
-  <tr><td>2</td><td><a href="test_kernel_cache.md">Test Kernel Cache</a></td></tr>
-  <tr><td>3</td><td><a href="test_lazy_buffer.md">Test Lazy Buffer</a></td></tr>
-  <tr><td>4</td><td><a href="test_lazyop.md">Test Lazy Op</a></td></tr>
-  <tr><td>5</td><td><a href="test_linearizer.md">Test Linearizer</a></td></tr>
-  <tr><td>6</td><td><a href="test_linearizer_failures.md">Test Linearizer Failures</a></td></tr>
-  <tr><td>7</td><td><a href="test_masked_st.md">Test Masked ST</a></td></tr>
-  <tr><td>8</td><td><a href="test_method_cache.md">Test Method Cache</a></td></tr>
-  <tr><td>9</td><td><a href="test_multitensor.md">Test Multitensor</a></td></tr>
-  <tr><td>10</td><td><a href="test_net_speed.md">Test Net Speed</a></td></tr>
-  <tr><td>11</td><td><a href="test_nn.md">Test NN</a></td></tr>
-  <tr><td>12</td><td><a href="test_ops.md">Test Ops</a></td></tr>
-  <tr><td>13</td><td><a href="test_optim.md">Test Optim</a></td></tr>
-  <tr><td>14</td><td><a href="test_randomness.md">Test Randomness</a></td></tr>
-  <tr><td>15</td><td><a href="test_sample.md">Test Sample</a></td></tr>
-  <tr><td>16</td><td><a href="test_schedule.md">Test Schedule</a></td></tr>
-  <tr><td>17</td><td><a href="test_search.md">Test Search</a></td></tr>
-  <tr><td>18</td><td><a href="test_specific_conv.md">Test Specific Conv</a></td></tr>
-  <tr><td>19</td><td><a href="test_speed_v_torch.md">Test Speed vs Torch</a></td></tr>
-  <tr><td>20</td><td><a href="test_symbolic_jit.md">Test Symbolic JIT</a></td></tr>
-  <tr><td>21</td><td><a href="test_symbolic_ops.md">Test Symbolic Ops</a></td></tr>
-  <tr><td>22</td><td><a href="test_symbolic_shapetracker.md">Test Symbolic Shape Tracker</a></td></tr>
-  <tr><td>23</td><td><a href="test_copy_speed.md">Test Copy Speed</a></td></tr>
-  <tr><td>24</td><td><a href="test_custom_function.md">Test Custom Function</a></td></tr>
-  <tr><td>25</td><td><a href="test_dtype.md">Test Dtype</a></td></tr>
-  <tr><td>26</td><td><a href="test_dtype_alu.md">Test Dtype ALU</a></td></tr>
-  <tr><td>27</td><td><a href="test_fusion_op.md">Test Fusion Op</a></td></tr>
-  <tr><td>28</td><td><a href="test_gc.md">Test Garbage Collection</a></td></tr>
-  <tr><td>29</td><td><a href="test_hip_rdna3.md">Test HIP RDNA3</a></td></tr>
-  <tr><td>30</td><td><a href="test_image_dtype.md">Test Image Dtype</a></td></tr>
-  <tr><td>31</td><td><a href="test_tensor.md">Test Tensor</a></td></tr>
-  <tr><td>32</td><td><a href="test_tensor_data.md">Test Tensor Data</a></td></tr>
-  <tr><td>33</td><td><a href="test_to_numpy.md">Test To Numpy</a></td></tr>
-  <tr><td>34</td><td><a href="test_uops.md">Test UOps</a></td></tr>
-  <tr><td>35</td><td><a href="test_winograd.md">Test Winograd</a></td></tr>
-  <tr><td>36</td><td><a href="test_zero_copy.md">Test Zero Copy</a></td></tr>
-  <tr><td>37</td><td><a href="test_assign.md">Test Assign</a></td><td><a href="test_assign.log">✔️</a></td><td></td><td></td><td></td></tr>
-  <tr><td>38</td><td><a href="test_conv.md">Test Conv</a></td></tr>
-  <tr><td>39</td><td><a href="test_conv_shapetracker.md">Test Conv Shape Tracker</a></td></tr>
+  <tr><td>2</td><td><a href="test_kernel_cache.md">Test Kernel Cache</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>3</td><td><a href="test_lazy_buffer.md">Test Lazy Buffer</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>4</td><td><a href="test_lazyop.md">Test Lazy Op</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>5</td><td><a href="test_linearizer.md">Test Linearizer</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>6</td><td><a href="test_linearizer_failures.md">Test Linearizer Failures</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>7</td><td><a href="test_masked_st.md">Test Masked ST</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>8</td><td><a href="test_method_cache.md">Test Method Cache</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>9</td><td><a href="test_multitensor.md">Test Multitensor</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>10</td><td><a href="test_net_speed.md">Test Net Speed</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>11</td><td><a href="test_nn.md">Test NN</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>12</td><td><a href="test_ops.md">Test Ops</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>13</td><td><a href="test_optim.md">Test Optim</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>14</td><td><a href="test_randomness.md">Test Randomness</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>15</td><td><a href="test_sample.md">Test Sample</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>16</td><td><a href="test_schedule.md">Test Schedule</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>17</td><td><a href="test_search.md">Test Search</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>18</td><td><a href="test_specific_conv.md">Test Specific Conv</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>19</td><td><a href="test_speed_v_torch.md">Test Speed vs Torch</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>20</td><td><a href="test_symbolic_jit.md">Test Symbolic JIT</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>21</td><td><a href="test_symbolic_ops.md">Test Symbolic Ops</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>22</td><td><a href="test_symbolic_shapetracker.md">Test Symbolic Shape Tracker</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>23</td><td><a href="test_copy_speed.md">Test Copy Speed</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>24</td><td><a href="test_custom_function.md">Test Custom Function</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>25</td><td><a href="test_dtype.md">Test Dtype</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>26</td><td><a href="test_dtype_alu.md">Test Dtype ALU</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>27</td><td><a href="test_fusion_op.md">Test Fusion Op</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>28</td><td><a href="test_gc.md">Test Garbage Collection</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>29</td><td><a href="test_hip_rdna3.md">Test HIP RDNA3</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>30</td><td><a href="test_image_dtype.md">Test Image Dtype</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>31</td><td><a href="test_tensor.md">Test Tensor</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>32</td><td><a href="test_tensor_data.md">Test Tensor Data</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>33</td><td><a href="test_to_numpy.md">Test To Numpy</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>34</td><td><a href="test_uops.md">Test UOps</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>35</td><td><a href="test_winograd.md">Test Winograd</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>36</td><td><a href="test_zero_copy.md">Test Zero Copy</a></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>37</td><td><a href="test_assign.md">Test Assign</a></td><<td><a href="test_assign.log">✔️</a></td><td></td><td></td><td></td></tr>
+  <tr><td>38</td><td><a href="test_conv.md">Test Conv</a></td><td><a href="test_conv.log">✔️</a></td><td></td><td></td><td></td></tr>
+  <tr><td>39</td><td><a href="test_conv_shapetracker.md">Test Conv Shape Tracker</a></td><td><a href="test_conv_shapetracker.log">✔️</a></td><td></td><td></td><td></td></tr>
+
 </table>
 
 **D1:** <a href="d1_inxiG.log">OpenBox 7900 XTX</a>   
@@ -95,4 +96,4 @@
 **D3:** OpenBox NVidia P40 (OpenBox Affordable NVidia Version)  
 **D4:** AE Snapdragon 845/ Adreno 630  
 
-Click on the ✔️ or ❌ to see the log result of the test results for the associated device.
+Click on the ✔️ or ❌ emojis to see the log result of the test results for the associated device.
