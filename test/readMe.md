@@ -5,7 +5,7 @@
     <th>#</th>
     <th>Test Case</th>
     <th><a href="inxiG_d1.log">D1</a></th>
-    <th>D2</th>
+    <th><a href="inxiG_d2.log">D2</a></th>
     <th>D3</th>
     <th>D4</th>
   </tr> 
