@@ -52,7 +52,7 @@
 </table>
 
 **D1:** <a href="inxiG_d1.log">OpenBox 7900 XTX</a>   
-**D2:** OpenBox MI25 (OpenBox Affordable AMD Version)  
+**D2:** <a href="inxiG_d2.log">OpenBox MI25</a> (OpenBox Affordable AMD Version)  
 **D3:** OpenBox NVidia P40 (OpenBox Affordable NVidia Version)  
 **D4:** AE Snapdragon 845/ Adreno 630  
 
