@@ -1,3 +1,7 @@
+OS:
+Linux 18d463274d4a 5.15.0-91-generic #101~20.04.1-Ubuntu SMP x86_64 x86_64 x86_64 GNU/Linux
+Docker from DockerHub:
+rocm/pytorch      rocm5.4_ubuntu20.04_py3.8_pytorch_1.12.1
 Graphics:  Device-1: AMD Vega 10 [Radeon Instinct MI25] driver: amdgpu v: kernel 
            Device-2: ASPEED Graphics Family driver: ast v: kernel 
            Device-3: AMD Vega 10 [Radeon Instinct MI25] driver: amdgpu v: kernel 

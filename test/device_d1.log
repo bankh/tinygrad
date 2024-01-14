@@ -1,0 +1,16 @@
+OS:
+Linux 9cce34ff6c6c 6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC x86_64 x86_64 x86_64 GNU/Linux
+Docker from DockerHub:
+rocm/pytorch      rocm5.7_ubuntu22.04_py3.10_pytorch_2.0.1
+Graphics: Device-1: ASPEED Graphics Family driver: ast v: kernel
+          Device-2: AMD driver: amdgpu v: kernel
+          Device-3: AMD driver: amdgpu v: kernel
+          Device-4: AMD driver: amdgpu v: kernel
+          Device-5: AMD driver: amdgpu v: kernel
+          Device-6: AMD driver: amdgpu v: kernel
+          Device-7: AMD driver: amdgpu v: kernel
+          Display: x11 server: X.Org v: 1.21.1.4 driver: X:
+          loaded: amdgpu,ati,modesetting unloaded: fbdev,radeon,vesa gpu: ast
+          resolution: 1024x768~60Hz
+          OpenGL: renderer: llvmpipe (LLVM 15.0.7 256 bits)
+          v: 4.5 Mesa 23.0.4-0ubuntu1~22.04.1
