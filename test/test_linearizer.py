@@ -11,7 +11,7 @@ from tinygrad.shape.symbolic import MulNode, SumNode, Variable, NumNode, Node, c
 from tinygrad.tensor import Tensor
 from tinygrad.jit import CacheCollector
 from tinygrad.realize import run_schedule
-from tinygrad.helpers import prod
+from tinygrad.helpers import prod, Context
 from tinygrad.dtype import dtypes
 
 @unittest.skipIf(not isinstance(Device[Device.DEFAULT], Compiled), "linearizer is only for compiled backends")
@@ -308,32 +308,29 @@ class TestHandCodedOpts(unittest.TestCase):
     assert k.upcasted >= 2 and k.full_shape[k.shape_len-k.upcasted:k.shape_len].count(6) == 2
 
   def test_masked_upcast_wino_full(self):
-    old_wino = Tensor.wino
-    Tensor.wino = True
-    x,w = Tensor.rand(1,4,9,9, requires_grad=True).realize(), Tensor.rand(4,4,3,3, requires_grad=True).realize()
-    out = Tensor.conv2d(x,w, padding=1)
-    upcasts = []
-    # collect upcasts of tile transform kernels
-    for i, si in enumerate(out.lazydata.schedule()):
-      k = Linearizer(si.ast)
-      k.hand_coded_optimizations()
-      if k.reduceop is not None: continue  # not a tile transform kernel (there is a gemm reduce kernel)
-      if len(k.bufs) < 100: continue  # not a tile transform kernel (there's a permute kernel at the end)
-      upcasts.append(tuple(k.full_shape[k.shape_len - k.upcasted:k.shape_len]))
-    assert len(upcasts) == 3  # 3 transformation matrices
-    # TODO: what did this fix?
-    assert upcasts.count((6, 6)) == 2 #and upcasts.count((4, 4)) == 1
+    with Context(WINO=1):
+      x,w = Tensor.rand(1,4,9,9, requires_grad=True).realize(), Tensor.rand(4,4,3,3, requires_grad=True).realize()
+      out = Tensor.conv2d(x,w, padding=1)
+      upcasts = []
+      # collect upcasts of tile transform kernels
+      for i, si in enumerate(out.lazydata.schedule()):
+        k = Linearizer(si.ast)
+        k.hand_coded_optimizations()
+        if k.reduceop is not None: continue  # not a tile transform kernel (there is a gemm reduce kernel)
+        if len(k.bufs) < 100: continue  # not a tile transform kernel (there's a permute kernel at the end)
+        upcasts.append(tuple(k.full_shape[k.shape_len - k.upcasted:k.shape_len]))
+      assert len(upcasts) == 3  # 3 transformation matrices
+      # TODO: what did this fix?
+      assert upcasts.count((6, 6)) == 2 #and upcasts.count((4, 4)) == 1
 
-    out.mean().backward()
-    for si in x.grad.lazydata.schedule() + w.grad.lazydata.schedule():
-      k = Linearizer(si.ast)
-      k.hand_coded_optimizations()
-      k.linearize()
-      if len(k.bufs) < 20: continue  # not a tile transform kernel
-      # heuristic number to make sure that at least some upcasts but not too many upcasts are being done
-      assert 6 <= prod(k.full_shape[k.shape_len - k.upcasted:k.shape_len]) <= 49
-
-    Tensor.wino = old_wino
+      out.mean().backward()
+      for si in x.grad.lazydata.schedule() + w.grad.lazydata.schedule():
+        k = Linearizer(si.ast)
+        k.hand_coded_optimizations()
+        k.linearize()
+        if len(k.bufs) < 20: continue  # not a tile transform kernel
+        # heuristic number to make sure that at least some upcasts but not too many upcasts are being done
+        assert 6 <= prod(k.full_shape[k.shape_len - k.upcasted:k.shape_len]) <= 49
 
   def test_masked_upcast_many(self):
     layer_1 = Tensor.cat(Tensor.rand(3, 4), Tensor.rand(4, 4))
@@ -575,11 +572,11 @@ class TestLinearizerHelper(unittest.TestCase):
     assert expand_node(a) == [a]
 
   def test_variable_expand_expr_none(self):
-    a = Variable(None, 5, 7)
+    a = Variable("_uidx0", 5, 7)
     assert expand_node(a) == [NumNode(5), NumNode(6), NumNode(7)]
 
   def test_mul_node_expand(self):
-    a = Variable(None, 5, 7)
+    a = Variable("_uidx0", 5, 7)
     m = MulNode(a, 3)
     assert expand_node(m) == [NumNode(15), NumNode(18), NumNode(21)]
 
@@ -588,7 +585,7 @@ class TestLinearizerHelper(unittest.TestCase):
     assert expand_node(n) == [Variable("b", 1, 3)*3]
 
   def test_sum_node_expand(self):
-    a = Variable(None, 1, 3)
+    a = Variable("_uidx0", 1, 3)
     b = Variable("b", 5, 7)
 
     s1 = create_rednode(SumNode, [a, b])
